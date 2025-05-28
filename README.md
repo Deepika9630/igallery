@@ -25,6 +25,7 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
 html
 <!DOCTYPE html>
 <html lang="en">
@@ -92,7 +93,8 @@ html
   <script src="script.js"></script>
 </body>
 </html>
-
+```
+```
 css
 /* Global Styles */
 * {
@@ -190,7 +192,8 @@ body {
     font-size: 30px;
     cursor: pointer;
 }
-
+```
+```
 js
 const galleryImages = document.querySelectorAll('.gallery-img');
 
@@ -219,6 +222,7 @@ modal.addEventListener('click', (event) => {
         closeModal();
     }
 });
+```
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/b0d3c77a-aff9-4caf-8183-d06731814bf5)
 
